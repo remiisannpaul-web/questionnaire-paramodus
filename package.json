@@ -7,9 +7,13 @@
     "build": "next build",
     "start": "next start",
     "lint": "biome check",
-    "format": "biome format --write"
+    "format": "biome format --write",
+    "test": "node --test tests/*.test.mjs",
+    "test:sheets:live": "node scripts/verify-google-sheets.mjs"
   },
   "dependencies": {
+    "dotenv": "^18.0.8",
+    "googleapis": "^186.0.0",
     "next": "16.4.1",
     "react": "19.3.0",
     "react-dom": "19.3.0"

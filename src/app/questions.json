@@ -1,0 +1,467 @@
+[
+  {
+    "id": 1,
+    "title": "Quel âge as-tu?",
+    "section": 0,
+    "options": [],
+    "kind": "number",
+    "note": "ans"
+  },
+  {
+    "id": 2,
+    "title": "Quel est ton niveau de scolarité actuel?",
+    "section": 0,
+    "options": [
+      "Primaire",
+      "Secondaire",
+      "Formation générale des adultes",
+      "Formation professionnelle — DEP",
+      "Attestation d'études collégiales — AEC",
+      "Cégep",
+      "Université",
+      "Autre"
+    ],
+    "kind": "single",
+    "note": ""
+  },
+  {
+    "id": 3,
+    "title": "Comment suis-tu principalement tes cours actuellement?",
+    "section": 0,
+    "options": [
+      "En présentiel",
+      "En ligne ou à distance",
+      "En partie en présentiel et en partie à distance",
+      "Enseignement à la maison",
+      "Autre"
+    ],
+    "kind": "single",
+    "note": ""
+  },
+  {
+    "id": 4,
+    "title": "En dehors de tes cours, combien d’heures par semaine consacres-tu, au total, à un emploi?",
+    "section": 0,
+    "options": [],
+    "kind": "number",
+    "note": "environ  heures par semaine. Inscris 0 si tu n’as pas ces responsabilités."
+  },
+  {
+    "id": 5,
+    "title": "Quelles matières ou quels cours te posent le plus de difficultés actuellement?",
+    "section": 0,
+    "options": [
+      "Français ou langue d’enseignement",
+      "Littérature",
+      "Langue seconde (ex. anglais)",
+      "Mathématiques",
+      "Sciences et technologie",
+      "Histoire, géographie ou univers social",
+      "Cours techniques ou professionnels",
+      "Autre matière ou cours",
+      "Aucune matière en particulier"
+    ],
+    "kind": "multi",
+    "note": "Plusieurs réponses possibles. Si tu choisis « Aucune », ne coche pas d’autre réponse."
+  },
+  {
+    "id": 6,
+    "title": "À quelle fréquence as-tu du mal à comprendre les consignes d’un travail?",
+    "section": 1,
+    "options": [
+      "Jamais",
+      "Rarement",
+      "Parfois",
+      "Souvent",
+      "Toujours",
+      "Ne s’applique pas"
+    ],
+    "kind": "single",
+    "note": ""
+  },
+  {
+    "id": 7,
+    "title": "À quelle fréquence as-tu du mal à comprendre les textes à lire pour tes cours?",
+    "section": 1,
+    "options": [
+      "Jamais",
+      "Rarement",
+      "Parfois",
+      "Souvent",
+      "Toujours",
+      "Ne s’applique pas"
+    ],
+    "kind": "single",
+    "note": ""
+  },
+  {
+    "id": 8,
+    "title": "À quelle fréquence as-tu du mal à exprimer tes idées par écrit?",
+    "section": 1,
+    "options": [
+      "Jamais",
+      "Rarement",
+      "Parfois",
+      "Souvent",
+      "Toujours",
+      "Ne s’applique pas"
+    ],
+    "kind": "single",
+    "note": ""
+  },
+  {
+    "id": 9,
+    "title": "À quelle fréquence oublies-tu la matière que tu pensais avoir comprise?",
+    "section": 1,
+    "options": [
+      "Jamais",
+      "Rarement",
+      "Parfois",
+      "Souvent",
+      "Toujours",
+      "Ne s’applique pas"
+    ],
+    "kind": "single",
+    "note": ""
+  },
+  {
+    "id": 10,
+    "title": "À quelle fréquence as-tu du mal à rester concentré pendant ton travail scolaire?",
+    "section": 1,
+    "options": [
+      "Jamais",
+      "Rarement",
+      "Parfois",
+      "Souvent",
+      "Toujours",
+      "Ne s’applique pas"
+    ],
+    "kind": "single",
+    "note": ""
+  },
+  {
+    "id": 11,
+    "title": "À quelle fréquence sais-tu par quelle étape commencer un travail scolaire?",
+    "section": 1,
+    "options": [
+      "Jamais",
+      "Rarement",
+      "Parfois",
+      "Souvent",
+      "Toujours",
+      "Ne s’applique pas"
+    ],
+    "kind": "single",
+    "note": ""
+  },
+  {
+    "id": 12,
+    "title": "À quelle fréquence remets-tu ton travail scolaire à plus tard, même lorsque tu avais prévu de le faire?",
+    "section": 1,
+    "options": [
+      "Jamais",
+      "Rarement",
+      "Parfois",
+      "Souvent",
+      "Toujours",
+      "Ne s’applique pas"
+    ],
+    "kind": "single",
+    "note": ""
+  },
+  {
+    "id": 13,
+    "title": "À quelle fréquence termines-tu tes travaux dans le délai prévu?",
+    "section": 1,
+    "options": [
+      "Jamais",
+      "Rarement",
+      "Parfois",
+      "Souvent",
+      "Toujours",
+      "Ne s’applique pas"
+    ],
+    "kind": "single",
+    "note": ""
+  },
+  {
+    "id": 14,
+    "title": "Combien de jours par semaine travailles-tu sur tes études en dehors des heures de cours?",
+    "section": 2,
+    "options": [
+      "0 jour",
+      "1 jour",
+      "2 jours",
+      "3 jours",
+      "4 jours",
+      "5 jours",
+      "6 jours",
+      "7 jours"
+    ],
+    "kind": "single",
+    "note": ""
+  },
+  {
+    "id": 15,
+    "title": "Les jours où tu étudies en dehors des cours, combien de temps en moyenne y consacres-tu au total dans la journée?",
+    "section": 2,
+    "options": [
+      "Je n’étudie pas en dehors des cours",
+      "Moins de 15 minutes",
+      "De 15 à 29 minutes",
+      "De 30 à 59 minutes",
+      "De 1 à 2 heures",
+      "Plus de 2 heures"
+    ],
+    "kind": "single",
+    "note": ""
+  },
+  {
+    "id": 16,
+    "title": "À quelle fréquence disposes-tu d’un endroit calme pour étudier?",
+    "section": 2,
+    "options": [
+      "Jamais",
+      "Rarement",
+      "Parfois",
+      "Souvent",
+      "Toujours",
+      "Ne s’applique pas"
+    ],
+    "kind": "single",
+    "note": ""
+  },
+  {
+    "id": 17,
+    "title": "Quel moyen utilises-tu principalement pour suivre tes travaux et tes dates de remise?",
+    "section": 2,
+    "options": [
+      "Ma mémoire seulement",
+      "Un agenda papier",
+      "Un calendrier ou une liste numérique",
+      "Une plateforme scolaire",
+      "Une autre personne m’aide à les suivre",
+      "Aucun moyen particulier",
+      "Autre"
+    ],
+    "kind": "single",
+    "note": ""
+  },
+  {
+    "id": 18,
+    "title": "Quels appareils peux-tu utiliser facilement pour tes études à la maison?",
+    "section": 2,
+    "options": [
+      "Un téléphone",
+      "Une tablette",
+      "Un ordinateur",
+      "Aucun appareil",
+      "Autre"
+    ],
+    "kind": "multi",
+    "note": "Tu peux choisir plusieurs réponses. Le choix « Aucun appareil » doit être sélectionné seul.",
+    "exclusiveOptions": ["Aucun appareil"]
+  },
+  {
+    "id": 19,
+    "title": "Quand tu bloques sur un travail, quelles sont généralement tes réactions?",
+    "section": 3,
+    "options": [
+      "J’essaie une autre façon de faire par moi-même",
+      "Je relis les notes de cours",
+      "Je demande à un enseignant ou à une enseignante",
+      "Je demande à un proche ou à un autre élève",
+      "Je cherche sur Internet, sans utiliser une IA",
+      "J’utilise une intelligence artificielle, comme ChatGPT",
+      "J’arrête ou je remets le travail à plus tard",
+      "Autre",
+      "Je ne rencontre pas cette situation"
+    ],
+    "kind": "multi",
+    "note": "Tu peux choisir plusieurs réponses. Le dernier choix doit être sélectionné seul.",
+    "exclusiveOptions": ["Je ne rencontre pas cette situation"]
+  },
+  {
+    "id": 20,
+    "title": "À quelle fréquence arrives-tu à obtenir de l’aide au moment où tu en as besoin?",
+    "section": 3,
+    "options": [
+      "Jamais",
+      "Rarement",
+      "Parfois",
+      "Souvent",
+      "Toujours",
+      "Je n’ai pas eu besoin d’aide"
+    ],
+    "kind": "single",
+    "note": ""
+  },
+  {
+    "id": 21,
+    "title": "Quand tu reçois de l’aide, à quelle fréquence arrives-tu ensuite à continuer ton travail par toi-même?",
+    "section": 3,
+    "options": [
+      "Jamais",
+      "Rarement",
+      "Parfois",
+      "Souvent",
+      "Toujours",
+      "Je n’ai pas reçu d’aide"
+    ],
+    "kind": "single",
+    "note": ""
+  },
+  {
+    "id": 22,
+    "title": "À quel point te sens-tu capable de réussir les tâches scolaires qu’on te demande?",
+    "section": 4,
+    "options": [
+      "Pas du tout capable",
+      "Peu capable",
+      "Moyennement capable",
+      "Assez capable",
+      "Tout à fait capable"
+    ],
+    "kind": "single",
+    "note": ""
+  },
+  {
+    "id": 23,
+    "title": "À quelle fréquence te sens-tu stressé par tes travaux scolaire?",
+    "section": 4,
+    "options": [
+      "Jamais",
+      "Rarement",
+      "Parfois",
+      "Souvent",
+      "Toujours",
+      "Ne s’applique pas"
+    ],
+    "kind": "single",
+    "note": ""
+  },
+  {
+    "id": 24,
+    "title": "À quelle fréquence as-tu envie d’apprendre les sujets abordés dans tes cours?",
+    "section": 4,
+    "options": [
+      "Jamais",
+      "Rarement",
+      "Parfois",
+      "Souvent",
+      "Toujours",
+      "Ne s’applique pas"
+    ],
+    "kind": "single",
+    "note": ""
+  },
+  {
+    "id": 25,
+    "title": "À quelle fréquence utilises-tu une intelligence artificielle, comme ChatGPT, pour tes études?",
+    "section": 5,
+    "options": [
+      "Jamais",
+      "Moins d’une fois par semaine",
+      "De 1 à 2 jours par semaine",
+      "De 3 à 4 jours par semaine",
+      "De 5 à 7 jours par semaine"
+    ],
+    "kind": "single",
+    "note": ""
+  },
+  {
+    "id": 26,
+    "title": "Quelles méthodes as-tu utilisées pour apprendre ou réviser dernièrement?",
+    "section": 5,
+    "options": [
+      "Relire mes notes ou mes documents de cours",
+      "Faire des exercices",
+      "Me tester sans regarder les réponses",
+      "Regarder des vidéos explicatives",
+      "Faire des résumés ou des schémas",
+      "Expliquer la matière à quelqu’un",
+      "Autre",
+      "Je n’ai pas étudié ou révisé dernièrement"
+    ],
+    "kind": "multi",
+    "note": "Tu peux choisir plusieurs réponses. Le dernier choix doit être sélectionné seul.",
+    "exclusiveOptions": ["Je n’ai pas étudié ou révisé dernièrement"]
+  },
+  {
+    "id": 27,
+    "title": "Pour quelles difficultés aimerais-tu recevoir de l’aide en priorité?",
+    "section": 5,
+    "options": [
+      "Comprendre la matière",
+      "Comprendre les consignes",
+      "Lire",
+      "Écrire",
+      "Calculer ou résoudre des problèmes mathématiques",
+      "Retenir la matière",
+      "Me concentrer",
+      "Organiser mon travail",
+      "Commencer mes travaux",
+      "Obtenir de l’aide lorsque je bloque",
+      "Autre",
+      "Je n’ai pas besoin d’aide pour le moment"
+    ],
+    "kind": "multi",
+    "note": "Tu peux choisir plusieurs réponses. Le dernier choix doit être sélectionné seul.",
+    "exclusiveOptions": ["Je n’ai pas besoin d’aide pour le moment"]
+  },
+  {
+    "id": 28,
+    "title": "À ta connaissance, un professionnel a-t-il identifié chez toi un ou plusieurs des troubles ou conditions suivants?",
+    "section": 6,
+    "options": [
+      "Dyslexie — difficultés liées à la lecture",
+      "Dysorthographie — difficultés liées à l’orthographe",
+      "Dyscalculie — difficultés liées aux nombres et au calcul",
+      "Trouble développemental du langage — TDL, anciennement appelé dysphasie",
+      "Trouble du déficit de l’attention avec ou sans hyperactivité — TDAH, parfois appelé TDA",
+      "Trouble développemental de la coordination — TDC, souvent appelé dyspraxie",
+      "Dysgraphie — difficultés liées au geste d’écriture",
+      "Trouble du traitement auditif — TTA",
+      "Trouble du spectre de l’autisme — TSA",
+      "Trouble anxieux",
+      "Autre",
+      "Aucun trouble ou condition identifié à ma connaissance",
+      "Je ne sais pas",
+      "Je préfère ne pas répondre"
+    ],
+    "kind": "multi",
+    "note": "Plusieurs réponses possibles. Les choix « Aucun », « Je ne sais pas » et « Je préfère ne pas répondre » doivent être sélectionnés seuls."
+  },
+  {
+    "id": 29,
+    "title": "En plus de ce qui a déjà été identifié par un professionnel, penses-tu qu’un autre trouble ou une autre condition pourrait avoir un effet sur tes études?",
+    "section": 6,
+    "options": ["Oui", "Non", "Je ne sais pas", "Je préfère ne pas répondre"],
+    "kind": "single",
+    "note": "Si oui, tu peux préciser lequel ou lesquels, si tu le souhaites :"
+  },
+  {
+    "id": 30,
+    "title": "Souhaites-tu ajouter un commentaire, partager une expérience ou proposer une idée pour une application d’aide aux études? — Facultatif",
+    "section": 7,
+    "options": [],
+    "kind": "text",
+    "note": ""
+  },
+  {
+    "id": 31,
+    "title": "Acceptes-tu que l’on te recontacte dans le cadre de ce projet?",
+    "section": 7,
+    "options": ["Oui", "Non"],
+    "kind": "single",
+    "note": "Cette étape est facultative. Tu peux terminer sans laisser de coordonnées."
+  },
+  {
+    "id": 32,
+    "title": "Comment peut-on te recontacter?",
+    "section": 7,
+    "options": [],
+    "kind": "contact",
+    "note": "Pour une entrevue ou pour essayer une première version de l’application."
+  }
+]

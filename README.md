@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Petit à petit — Questionnaire
 
-## Getting Started
+Application Next.js en français, avec une question par étape et envoi des réponses
+vers Google Sheets à la fin du parcours.
 
-First, run the development server:
+## Démarrer
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+L’application est disponible sur http://localhost:3000. Les fichiers principaux
+sont `src/app/page.js`, `src/app/questions.json` et
+`src/app/api/questionnaire/route.js`.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Google Sheets
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Consulter [la documentation de l’intégration](docs/google-sheets.md) pour la
+configuration, l’ordre des 66 colonnes, les corrections apportées et les résultats
+de vérification.
 
-## Learn More
+```bash
+npm test
+npm run build
+npm run test:sheets:live
+```
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Le test live utilise les identifiants de `.env.local` et écrit uniquement dans un
+onglet temporaire de test, supprimé ensuite. Ne pas versionner les identifiants.
